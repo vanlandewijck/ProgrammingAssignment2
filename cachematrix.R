@@ -7,8 +7,8 @@
 
 makeCacheMatrix <- function(x = matrix()) {
                       
-        minv <- NULL   ## This is where we store the inverse of the matrix (minv). 
-                       ## We set it to NULL if not calculated, see 'message' later
+        minv <- NULL  ## This is where we store the inverse of the matrix (minv). 
+                      ## We set it to NULL if not calculated, see 'message' later
         
                 set <- function(y) {
                         x <<- y
